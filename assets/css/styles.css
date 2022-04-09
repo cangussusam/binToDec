@@ -1,0 +1,58 @@
+body{
+    font-family: 'Arvo', serif;
+}
+
+.header{
+    background: black;
+}
+
+.header__title{
+    color:white;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 15%;
+    margin-top: 17%;
+    margin-bottom: 17%;
+}
+
+.binario__input{
+    padding: 2rem 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.transformar__button{
+    background-color: #0C1821;
+    color: #fdfdfd;
+    padding: 2rem;
+    opacity: 100%;
+    box-shadow: 4px 4px 4px black;
+    font-size: 1.15rem;
+}
+
+.decimal__output{
+    border: 1px solid grey;
+    padding: 0 4.5rem 3.5rem 4.5rem;
+    font-size: 1.20rem;
+    font-weight: 400;
+    
+}
+
+.error__mensage{
+    color: lightcoral;  
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-left: 30%;
+}
+
+.footer{
+    background: black;
+    height: 75px;
+}
